@@ -47,8 +47,6 @@ DATA_AVAILABILITY.md       Suggested manuscript wording
 - The release is intended to regenerate numerical data, not to rerun cloud
   hardware jobs.
 - The Fig. 5 workflow uses DMRG only.
-- Generated `.csv` and `.npz` files should be archived with the code release if
-  they are used for the submitted manuscript.
 
 ## License
 
