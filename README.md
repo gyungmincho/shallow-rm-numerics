@@ -8,8 +8,6 @@ reproducibility release focused on the numerical parts of the manuscript:
 - multi-shot fidelity and purity simulations,
 - DMRG-based shadow-kernel machine-learning simulations.
 
-The Fig. 4 cloud-hardware experiment is not included in this numerical release.
-
 ## Installation
 
 ```bash
