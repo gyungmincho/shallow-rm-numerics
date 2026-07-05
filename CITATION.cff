@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or generated data, please cite the associated manuscript and archived repository."
+title: "Numerical code for shallow randomized measurement in noisy quantum devices"
+authors:
+  - family-names: Cho
+    given-names: Gyungmin
+  - family-names: Kim
+    given-names: Dohun
+version: 0.3.0
+date-released: 2026-07-05
+preferred-citation:
+  type: article
+  title: "Shallow randomized measurement in noisy quantum devices"
+  authors:
+    - family-names: Cho
+      given-names: Gyungmin
+    - family-names: Kim
+      given-names: Dohun
+  year: 2026

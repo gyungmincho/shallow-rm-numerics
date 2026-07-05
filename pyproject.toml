@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shallow-rm-numerics"
+version = "0.3.0"
+description = "Numerical code for shallow randomized measurement simulations"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Gyungmin Cho"},
+  {name = "Dohun Kim"}
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "pandas>=2.0",
+  "pyyaml>=6.0",
+  "tqdm>=4.65"
+]
+
+[project.optional-dependencies]
+qiskit = [
+  "qiskit>=1.0",
+  "qiskit-aer>=0.14"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

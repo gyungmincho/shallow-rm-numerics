@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+pyyaml>=6.0
+tqdm>=4.65
+qiskit>=1.0
+qiskit-aer>=0.14

@@ -1,0 +1,10 @@
+num_qubits: 24
+depth: 12
+block_sizes: [1, 2, 3]
+shots_list: [2000, 3000, 4000, 6000, 8000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000]
+num_unitaries: 500
+seed: 1234
+max_circuits_per_job: 50
+exact_pair_limit: 2000000
+pair_samples: 500000
+output_dir: data/processed
